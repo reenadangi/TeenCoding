@@ -12,7 +12,32 @@
 </head>
 
 <body>
-    <div id="wrapper">
+    <div id="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">
+                    <img id="logo" src="./img/logo.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+              </ul>
+            
+            </div>
+        </nav>
+
         <p class="h1">Bootstrap heading</p>
         <h1 id="heading">Welcome to Bootstarp!</h1>
         <h2>This is CSS Framework!</h2>
@@ -22,7 +47,7 @@
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores, sunt!
 
         </p>
-
+            <h3>Adding new heading</h3>
         <div class="card" style="width: 300px; background-color:bisque">
             <img class="card-img-top" src="https://pocket-syndicated-images.s3.amazonaws.com/5ed15edc3f3d4.jpg" alt="">
             <div class="card-body">
@@ -32,15 +57,12 @@
                 </p>
                 <a href="#" class="btn btn-primary">Go somewhere</a>
                 <button type="button" class="btn btn-secondary">Secondary</button>
-
             </div>
-
-
-
         </div>
 
         <div class="card" style="width: 18rem;">
-            <img class="card-img-top"
+            <img 
+                class="card-img-top"
                 src="https://pocket-image-cache.com/direct?resize=w2000&url=http%3A%2F%2Fstatic.nautil.us%2F16568_4ea01965a7b1b4359cdabed6e3e6936b.jpg"
                 alt="Card image cap">
             <div class="card-body">
